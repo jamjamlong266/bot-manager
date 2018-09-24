@@ -38,10 +38,6 @@ a {
   color: #42b983;
 }
 
-input {
-    
-}
-
 span {
     padding-right: 50px;
 }
