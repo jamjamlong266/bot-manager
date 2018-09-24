@@ -1,10 +1,7 @@
 <template>
   <div class="hello">
-    <Form v-title="Bitcouns"/>
-    <Form v-title="Bitcouns"/>
-    <Form v-title="Bitcouns"/>
-    <Form v-title="Bitcouns"/>
-    <Form v-title="Bitcouns"/>
+    <Form :title="msg"></Form>
+    <Form :title="msg"></Form>
   </div>
 </template>
 
@@ -15,7 +12,7 @@ export default {
   name: 'Login',
   data () {
     return {
-      msg: 'This is login'
+        msg: 'BITCOIN',
     }
   },
   components: {
@@ -39,11 +36,5 @@ li {
 }
 a {
   color: #42b983;
-}
-
-.hello {
-    width:100%;
-    display:flex;
-    flex-direction: row;
 }
 </style>

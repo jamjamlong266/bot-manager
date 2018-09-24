@@ -1,7 +1,7 @@
 <template>
   <div class="form-holder">
     <div class="header">
-        <h4>Bitcoin</h4>
+        <h4>BitCoin</h4>
     </div>
 
     <div class="input-holder">
@@ -33,9 +33,10 @@
 <script>
 export default {
   name: 'Form',
+  porps: ['title'],
   data () {
     return {
-      msg: 'This is Form'
+      title: ''
     }
   }
 }
@@ -65,6 +66,8 @@ a {
     height:350px;
     border-radius: 5px;
     border: 1px solid rgba(0,0,0,0.2);
+    margin:10px 15px;
+    float:left;
 }
 
 .header {
