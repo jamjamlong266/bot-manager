@@ -3,7 +3,7 @@
       <form action="/action_page.php">
         <span>User ID:</span>  <input type="text" name="User ID" placeholder="Email/Username"><br>
         <span1>Password:</span1> <input type="text" name="Password" placeholder="Password"><br>
-                  <input type="submit" value="Submit">
+                  <input type="submit" value="Log in">
 </form>
   </div>
 </template>
