@@ -1,6 +1,10 @@
 <template>
   <div class="hello">
-   <p>this is sign up</p>
+      <form action="/action_page.php">
+        <span>User ID:</span>  <input type="text" name="User ID" placeholder="Email/Username"><br>
+        <span1>Password:</span1> <input type="text" name="Password" placeholder="Password"><br>
+                  <input type="submit" value="Log in">
+</form>
   </div>
 </template>
 
@@ -32,5 +36,17 @@ li {
 }
 a {
   color: #42b983;
+}
+
+input {
+    
+}
+
+span {
+    padding-right: 50px;
+}
+span1 {
+    padding-right: 33px;
+    line-height: 3.0;
 }
 </style>
