@@ -1,6 +1,5 @@
 <template>
   <div class="hello">
-    {{msg}}
     <Form v-title="Bitcouns"/>
     <Form v-title="Bitcouns"/>
     <Form v-title="Bitcouns"/>
@@ -40,5 +39,11 @@ li {
 }
 a {
   color: #42b983;
+}
+
+.hello {
+    width:100%;
+    display:flex;
+    flex-direction: row;
 }
 </style>
